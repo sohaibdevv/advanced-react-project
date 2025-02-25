@@ -28,7 +28,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* .about-video{
+.about-video{
     position: relative;
 }
 .about-video video{
@@ -43,7 +43,7 @@
     height: 60px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
-} */
+}
 
 @media screen and (min-width: 992px){
     .about-grid:nth-child(1),
