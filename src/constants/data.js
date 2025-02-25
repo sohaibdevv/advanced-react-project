@@ -56,42 +56,42 @@ const works = [
 
 const work_process = [
     {
-        title: "Sketch",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Plan",
+        paragraph: "Collaborate on design and translate it into a technical blueprint."
     },
     {
-        title: "Design",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Build",
+        paragraph: "Code the user interface with different technologies and tools."
     },
     {
-        title: "Develop",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Test",
+        paragraph: "Ensure functionality and cross-browser compatibility, fixing bugs."
     },
     {
-        title: "End-Product",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Deploy, Maintain",
+        paragraph: "Launch the front-end and update it over time."
     },
 ];
 
 const about_stats = [
     {
         image: `${images.stat_img_1}`,
-        value: "1575",
+        value: "-",
         title: "Clients"
     },
     {
         image: `${images.stat_img_2}`,
-        value: "2416",
+        value: "-",
         title: "Projects"
     },
     {
         image: `${images.stat_img_3}`,
-        value: "4287",
+        value: "-",
         title: "Working Hours"
     },
     {
         image: `${images.stat_img_4}`,
-        value: "287",
+        value: "-",
         title: "Awards"
     },
 ];

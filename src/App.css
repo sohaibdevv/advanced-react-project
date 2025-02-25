@@ -15,6 +15,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+* {
+  scrollbar-color: #8e8e8e #3d3a3a;
+  scrollbar-width: thin;
+}
+
 html{
   font-size: 10px;
 }

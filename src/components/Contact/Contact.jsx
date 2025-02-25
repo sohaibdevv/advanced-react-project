@@ -26,7 +26,7 @@ const Contact = () => {
             <div className='contact-section'>
                 <div className='section-title'>
                     <h3 className='text-brown'>contact <span className='text-dark'>me</span></h3>
-                    <p className='text'>I offer the right solutions for your digital business.</p>
+                    <p className='text'>Get in touch</p>
                 </div>
             </div>
 

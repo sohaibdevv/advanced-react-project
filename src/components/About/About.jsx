@@ -21,8 +21,12 @@ const About = () => {
                 <div className='about-grid grid'>
                     <img src = {images.About_Alex} alt = "" className='about-img mx-auto' />
                     <div className='section-title'>
-                        <h3 className='text-brown'>I'm <span className='text-dark'>Alex</span></h3>
-                        <p className='text mx-auto'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam culpa distinctio mollitia consectetur dolore! Iusto dolores reprehenderit at ad! Molestiae.</p>
+                        <h3 className='text-brown'>I'm <span className='text-dark'>Sohaib</span></h3>
+                        <p className='text mx-auto'><br/>
+                         An Aspiring Software Developer based in Karachi, Pakistan.📍
+                         <br/><br/>
+                         I'm currently learning and exploring new skills and technologies to stay up-to-date with modern development practices.
+                        </p>
                     </div>
                 </div>
 

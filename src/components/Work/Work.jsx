@@ -27,8 +27,8 @@ const Work = () => {
         <div className='container'>
             <div className='work-content'>
                 <div className='section-title'>
-                    <h3 className='text-brown'>latest <span className='text-dark'>works</span></h3>
-                    <p className='text'>I offer the right solutions for your digital business.</p>
+                    <h3 className='text-brown'>Featured <span className='text-dark'>Projects</span></h3>
+                    <p className='text'>Exploring new tools as part of my ongoing learning journey. </p>
                 </div>
 
                 <div className='work-list grid'>

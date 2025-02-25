@@ -1,5 +1,5 @@
 .newsletter{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/subscribe_background.jpeg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/subscribe_background.jpg") center/cover no-repeat;
     min-height: 65vh;
 }
 .newsletter-form{

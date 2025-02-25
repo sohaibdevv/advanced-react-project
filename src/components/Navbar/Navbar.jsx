@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import "./Navbar.css";
 import {Link} from "react-router-dom";
 import {FaBars, FaTimes} from "react-icons/fa";
+// import Work from '../Work/Work';
 
 const Navbar = () => {
     const [navToggler, setNavToggler] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
         <div className='container'>
             <div className='navbar-content'>
                 <div className='brand-and-toggler flex flex-sb'>
-                    <Link to = "/" className='navbar-brand text-uppercase fw-7 text-white ls-2 fs-22'>alex</Link>
+                    <Link to = "/" className='navbar-brand text-uppercase fw-7 text-white ls-2 fs-22'>Sohaib.dev</Link>
                     <button type = "button" className='navbar-open-btn text-white' onClick={() => setNavToggler(!navToggler)}>
                         <FaBars size = {30} />
                     </button>
@@ -26,13 +27,10 @@ const Navbar = () => {
                                 <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Home</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Services</Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Works</Link>
-                            </li>
-                            <li className='nav-item'>
                                 <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>About Me</Link>
+                            </li>
+                            <li className='nav-item'>
+                                <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Projects</Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to = "/" className='nav-link text-white ls-1 text-uppercase fw-6 fs-22'>Contact</Link>
