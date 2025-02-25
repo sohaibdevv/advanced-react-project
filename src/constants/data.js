@@ -1,38 +1,5 @@
 import images from "./images";
 
-const services = [
-    {
-        image: `${images.services_img_1}`,
-        title: "Web Design",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_2}`,
-        title: "Branding",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_3}`,
-        title: "UX Design",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_4}`,
-        title: "Logo Create",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_5}`,
-        title: "Illustration",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_6}`,
-        title: "Graphics",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-];
-
 const works = [
     {
         image: `${images.work_img_1}`
@@ -96,24 +63,6 @@ const about_stats = [
     },
 ];
 
-const testimonials = [
-    {
-        name: "Lelia Merritt",
-        post: "Graphic Designer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
-    {
-        name: "John Huston",
-        post: "Web Developer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
-    {
-        name: "Jeniffer Green",
-        post: "Marketing Manager",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
-]
-
 const logos = [
     {
         image: `${images.logo_img_1}`
@@ -135,4 +84,4 @@ const logos = [
     },
 ];
 
-export {services, works, work_process, about_stats, testimonials, logos};
+export {works, work_process, about_stats, logos};
