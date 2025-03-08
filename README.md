@@ -1,4 +1,4 @@
-# Advanced React Project
+# Advanced React Portfolio
 
 ## Live Demo: [Here!](https://advanced-react-portfolio.netlify.app/)
 
